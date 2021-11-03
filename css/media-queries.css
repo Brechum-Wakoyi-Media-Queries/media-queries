@@ -1,0 +1,21 @@
+/*MOBILE FIRST*/
+/*head{*/
+/*    background: orangered;*/
+/*}*/
+
+/*.alert-info{*/
+/*    background: blueviolet;*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*}*/
+
+#small {
+    color: chocolate;
+}
+
+#medium {
+    color: brown;
+}
+@media (min-width: 768px){
+
+}
