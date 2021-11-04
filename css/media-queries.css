@@ -111,3 +111,22 @@ footer{
 }
 
 }
+
+@media all and (min-device-width: 992px) {
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+    body{
+        display: grid;
+        grid-template-columns: 2fr 2fr ;
+        grid-template-areas:
+                "header nav-links"
+                "header-img header-img"
+                "main sub-section"
+                "footer footer";
+    }
+.hidden-on-desktop{
+    display: none;
+}
+}
