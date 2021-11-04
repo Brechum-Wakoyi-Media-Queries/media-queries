@@ -50,4 +50,45 @@ head{
         padding: 2em;
         border: 2em solid darkolivegreen;
          }
+
+    .hidden-on-desktop{
+        list-style: none;
+        text-decoration: none;
+
+    }
+
+    h1{
+        display: flex;
+        font-size: 2em;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding-bottom: 1em;
+        color: gold;
+    }
+.nav-links{
+    flex-direction: column;
+    margin: auto;
+    list-style: none;
+    justify-content: center;
+}
+ul {
+    padding: 1em;
+}
+ li{
+     justify-content: center;
+     margin: 1em;
+     padding: 1em;
+     background-color: lightcoral;
+ }
+a{
+    display: flex;
+    color: maroon;
+    justify-content: center;
+}
+ .main{
+     margin-bottom: 1em;
+ }
+
+
 }
