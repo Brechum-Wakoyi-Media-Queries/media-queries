@@ -172,6 +172,9 @@ footer{
     font-size: 2em;
     justify-content: space-evenly;
     flex-direction: column;
-
+}
+#social-media-links{
+    display: flex;
+    align-content: flex-end;
 }
 }
