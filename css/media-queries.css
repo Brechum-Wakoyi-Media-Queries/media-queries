@@ -148,6 +148,15 @@ h1{
     justify-content: flex-end;
 }
 a{
-
+    display: flex;
+    justify-content: flex-end;
 }
+li{
+    background-color: black;
+    padding: 2em;
+}
+.header-img{
+    grid-area: header-img;
+}
+
 }
