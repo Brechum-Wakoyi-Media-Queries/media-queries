@@ -112,7 +112,7 @@ footer{
 
 }
 
-@media all and(min-device-width: 992px) {
+@media all and (min-device-width: 992px) {
 *{
     box-sizing: border-box;
     font-family: sans-serif;
@@ -126,5 +126,7 @@ footer{
                 "main sub-section"
                 "footer footer";
     }
-
+.hidden-on-desktop{
+    display: none;
+}
 }
