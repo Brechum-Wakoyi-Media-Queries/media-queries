@@ -76,7 +76,19 @@ ul {
     padding: 1em;
 }
  li{
-
+     justify-content: center;
+     margin: 1em;
+     padding: 1em;
+     background-color: lightcoral;
  }
+a{
+    display: flex;
+    color: maroon;
+    justify-content: center;
+}
+ .main{
+     margin-bottom: 1em;
+ }
+
 
 }
