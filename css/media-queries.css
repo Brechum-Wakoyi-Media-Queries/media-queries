@@ -89,6 +89,14 @@ a{
  .main{
      margin-bottom: 1em;
  }
-
+h2{
+    margin-bottom: .5em;
+}
+.sub-section{
+    font-style: oblique;
+}
+a:hover{
+    color: blue;
+}
 
 }
