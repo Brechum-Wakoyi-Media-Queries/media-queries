@@ -158,5 +158,20 @@ li{
 .header-img{
     grid-area: header-img;
 }
+.sub-section{
+    font-style: italic;
+}
+img{
+    height: 300px;
+    width: 100%;
+}
+footer{
+    grid-area: footer;
+    display: flex;
+    margin-top: 12em;
+    font-size: 2em;
+    justify-content: space-evenly;
+    flex-direction: column;
 
+}
 }
